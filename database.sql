@@ -1,0 +1,16 @@
+-- Create the BankDB database
+CREATE DATABASE IF NOT EXISTS BankDB;
+USE BankDB;
+
+-- Create the ACCOUNTS table
+CREATE TABLE IF NOT EXISTS ACCOUNTS (
+    uid VARCHAR(10) PRIMARY KEY,
+    upin VARCHAR(6) NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    aadhar_number VARCHAR(12) UNIQUE NOT NULL,
+    pan_number VARCHAR(10) UNIQUE NOT NULL,
+    balance DECIMAL(15,2) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+); 
