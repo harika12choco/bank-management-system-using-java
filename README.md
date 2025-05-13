@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Java Bank Management System
 
 A desktop application for managing bank accounts, built with Java Swing and MySQL.
@@ -85,3 +86,6 @@ Feel free to fork this repository and submit pull requests for any improvements.
 ## License
 
 This project is open source and available under the MIT License. 
+=======
+# bank-management-system-using-java
+>>>>>>> 5f1f6b720caf9087eeecf25924b1da7e6189fa99
